@@ -1,0 +1,21 @@
+name: AdvancedSpawn
+main: Luthfi\AdvancedSpawn\Main
+version: 1.0.0
+api: 5.0.0
+author: Luthfi
+commands:
+  setspawn:
+    description: Set a spawn
+    usage: /setspawn <name>
+    permission: advancedspawn.setspawn
+  spawn:
+    description: Teleport to a spawn
+    usage: /spawn <name>
+    permission: advancedspawn.spawn
+permissions:
+  advancedspawn.setspawn:
+    description: Allows setting spawn
+    default: op
+  advancedspawn.spawn:
+    description: Allows teleporting to spawn
+    default: true

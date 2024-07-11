@@ -1,0 +1,25 @@
+AdvancedSpawn:
+# you can change name "spawn1, 2 or 3" whatever you want.
+# Download this plugin on https://github.com/LuthMC/AdvancedSpawn
+
+  spawn1:
+    enabled: true
+    x: 0
+    y: 64
+    z: 0
+    world: world
+    command: ["example1"]
+  spawn2:
+    enabled: false
+    x: 0
+    y: 64
+    z: 0
+    world: world
+    command: ["example2"]
+  spawn3:
+    enabled: false
+    x: 0
+    y: 64
+    z: 0
+    world: world
+    command: ["example3"]
